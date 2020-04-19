@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism|Sign up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="https://www.medianews4u.com/wp-content/uploads/2016/11/Kerala-Tourism-Logo-2.png">
+    <style>
+      body {background-image: url(https://www.psdgraphics.com/file/abstract-silk.jpg); background-repeat: no-repeat; background-size: cover;}
+    </style> 
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="https://www.medianews4u.com/wp-content/uploads/2016/11/Kerala-Tourism-Logo-2.png" width="60" height="40"  alt="">
+          </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html"><b>Home</b> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="district.html"><b>Districts</b> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><b>Contact us</b><span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+        <div class="row">
+            <div class="col-md-8" style="color: black;">
+              
+    <form action = "expl.html" onsubmit="return validate()">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="nam">Name</label>
+            <div>
+              <input type="text" class="form-control" id="nam">
+            </div>
+          </div>
+        </div>
+        <div class="form-row" onkeydown="return emailval()">
+          <div class="form-group col-md-6">
+            <label for="emal">Email</label>
+            <br>
+            <input type="email" class="form-control" placeholder = "Username/Email" id="emal">
+            <label id="checkEmail"></label>
+          </div>
+        </div>
+        <div class="form-row" onkeydown="return strength()">
+          <div class="form-group col-md-6">
+            <label for="pwd">Password</label>
+            <br>
+            <input type ="password" class="form-control" placeholder = "Password" id="pwd">
+            <label id="checkPass"></label>
+            <label style="color: red;">Password must contain minimum 8 characters and at least one uppercase, one lower case, one number and one special character</label>
+          </div>
+        </div>
+        <div class="form-row" onchange="return phonenumber()">
+          <div class="form-group col-md-6">
+            <label for="phone">Phone</label>
+            <input type="tel" class="form-control" id="phone">
+            <label style="color: red;">Accepted formats: XXXXXXXXXX, XXX-XXX-XXXX, XXX.XXX.XXXX, XXX XXX XXXX</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="cit">City</label>
+            <input type="text" class="form-control" id="cit">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="stat">State</label>
+            <input type="text" class="form-control" id="stat">
+          </div>
+        </div>
+        <button type = "submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+  </div>
+</div>
+<footer style="text-align: center; margin-top: 50px">Department of Tourism, Government of Kerala, Thiruvananthapuram, Kerala, India - 695 033<br>
+  Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.<br>
+  All rights reserved © Kerala Tourism 2020. Copyright | Terms of Use | Contact Us.</footer>
+<script src="signup.js"></script>
+</body>
+</html>

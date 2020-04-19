@@ -1,0 +1,14 @@
+body
+{
+    width: 105%;
+    height: 25cm;
+    text-align: center;
+    background-image: url(https://image.freepik.com/free-vector/blue-blurred-background-design_1107-117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+footer
+{
+    font-style: normal; color: black; text-align: center; margin-top: 50px;
+}
